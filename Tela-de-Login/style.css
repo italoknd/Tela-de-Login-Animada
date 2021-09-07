@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --cor1:rgb(29, 29, 29);
+  --cor2:#3E92CC;
+  --cor3:#1ED760;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cor2);
+}
+
+.login{
+  background-color: rgb(29, 29, 29);
+  width: 450px;
+  height: 350px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.294);
+}
+
+div .elements{
+  margin-top: 50px;
+}
+
+div h1{
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+div #user{
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: var(--cor2);
+  outline: none;
+  background-color: var(--cor1);
+  font-weight: bold;
+  transition-duration: 0.3s;
+  margin: auto;
+  display: block;
+}
+
+div #password{
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: var(--cor2);
+  outline: none;
+  font-weight: bold;
+  background-color: var(--cor1);
+  transition-duration: 0.3s;
+  margin: auto;
+  display: block;
+}
+
+div #login{
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: white;
+  border-color: var(--cor3);
+  outline: none;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: var(--cor1);
+  transition-duration: 0.3s;
+  margin: auto;
+  display: block;
+  font-size: 0.8rem;
+}
+
+div #user:hover{
+  padding: 10px 50px;
+  border-color: var(--cor3);
+}
+
+div #password:hover{
+  padding: 10px 50px;
+  border-color: var(--cor3);
+}
+
+div #login:hover{
+  background-color: var(--cor3);
+  padding: 10px 50px;
+}
