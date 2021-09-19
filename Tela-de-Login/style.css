@@ -39,6 +39,7 @@ div h1{
 
 div #user{
   text-align: center;
+  color: white;
   padding: 10px;
   border-radius: 20px;
   border-color: var(--cor2);
@@ -52,6 +53,7 @@ div #user{
 
 div #password{
   text-align: center;
+  color: white;
   padding: 10px;
   border-radius: 20px;
   border-color: var(--cor2);
